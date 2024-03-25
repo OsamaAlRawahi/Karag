@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Add Product</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" width="30" height="30" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="LogIn.html">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <br>
+        <div class="container mt-5">
+            <header style="background: orange; font-size:xx-large; text-align: center;">Add New Product</header>
+            <br>
+            <form>
+                <div class="form-group">
+                <label for="product Name:">Product Name</label>
+                    <input type="text" class="form-control" id="productName" required>
+                </div>
+                <div class="form-group">
+                    <label for="productPrice">Price</label>
+                    <input type="number" class="form-control" id="productPrice" required>
+                </div>
+                <div class="form-group">
+                    <label for="productDescription">Description</label>
+                    <textarea class="form-control" id="productDescription" rows="3"></textarea>
+                </div>
+                <!-- Image upload input -->
+                <div class="form-group">
+                    <label for="productImage">Product Image</label>
+                    <input type="file" class="form-control-file" id="productImage">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+    </body>
+</html>
