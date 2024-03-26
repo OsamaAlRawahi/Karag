@@ -2,11 +2,14 @@
     <head>
         <title>HOME</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Layout1.css">
         <style>
-            div div img {width: 33.333333%; height: 33.333333%; padding: 1%;}
         </style>
     </head>
     <body>
+        <div class="bgimg">
+            <div class="overlay"></div>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="index.html">
                 <img src="logo.jpg" width="30" height="30" alt="Logo">
@@ -43,24 +46,81 @@
                 </ul>
             </div>
         </nav>
-        <br><br><br>
-        <div class="container">
+        <br><br><br><!-- Hot Items -->
+        <div class="container py-5 my-5 bg-secondary rounded shadow">
+            <h1 class="text-center mb-5 text-white">Hot Items</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Contact Card -->
+                <div class="col">
+                    <div class="card bg-primary card-custom">
+                        <img src="tank.jpg" class="card-image-top rounded shadow " alt="Tank">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-custom text-white">Used Omani Tank</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Contact Card -->
+                <div class="col">
+                    <div class="card bg-primary card-custom">
+                        <img src="BMW.jpg" class= "card-image-top rounded shadow "alt="BMW">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-custom text-white">BMW M11 CS</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third Contact Card -->
+                <div class="col">
+                    <div class="card bg-primary card-custom">
+                        <img src="Plane.jpg" class= "card-image-top rounded shadow "alt="plane">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-custom text-white">Small Plane</h5>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        
+        <br><br><br><!-- For You -->
+        <div class="container py-5 bg-secondary rounded shadow">
+            <h1 class="text-center mb-5 text-white">Selected For You</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Contact Card -->
+                <div class="col">
+                    <div class="card bg-primary card-custom">
+                        <img src="Plane.jpg" class= "card-image-top rounded shadow "alt="plane">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-custom text-white">Private Plane</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Contact Card -->
+                <div class="col">
+                    <div class="card bg-primary card-custom">
+                        <img src="trans2.jpg" class= "card-image-top rounded shadow "alt="yacht">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-custom text-white">Amazing Yacht</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third Contact Card -->
+                <div class="col">
+                    <div class="card bg-primary card-custom">
+                        <img src="Tool.jpg" class= "card-image-top rounded shadow "alt="tools">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-custom text-white">Various Tools</h5>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
 
-            <header style="background: rgb(243, 186, 79); font-size:xx-large; color: red; text-align: center;">Hot Items</header>
-            <div style="padding: 3%; background-color: rgb(193, 192, 192);">
-                <img src="tank.jpg" ><img src="bmw.jpeg" ><img src="Aircraft.png" ><br>
-            </div>
-        </div>
         <div class="container">
-            <header style="background: rgb(243, 186, 79); font-size:xx-large; color: blue; text-align: center;">For You</header>
-            <div style="padding: 3%; background-color: rgb(193, 192, 192);">
-                <img src="Aircraft.png" ><img src="bout.gif" ><img src="tools.jpeg" ><br>
-            </div>
+            <a class="btn btn-outline-dark container py-3 rounded shadow" href="AddItem.html">Add your Product</a>
         </div>
-        <div class="container">
-            <footer style="background: rgb(243, 186, 79); font-size:xx-large; color: gold; text-align: center;"><br></footer>
-            <a class="nav-link btn-outline-primary" href="AddItem.html">Add your Product</a>
-        </div>
+        <br>
+        <br>
             
     </body>
 </html>

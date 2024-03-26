@@ -5,7 +5,7 @@ body
 }
 #topbar
 {
-    background-color: #ffd64f;
+    background-color: #343a40;
     width: 100%;
     height: 45px;
     margin-bottom: 0;
@@ -50,7 +50,7 @@ img
   
   #search a:hover
   {
-    background-color: #e79212;
+    background-color: #343a40;
     color: black;
   }
   
@@ -95,8 +95,8 @@ img
 {
     margin-top: 0;
     width: 100%;
-    height: 300px;
-    background-image: url('sale.jpg');
+    height: 500px;
+    background-image: url('logo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -141,7 +141,7 @@ img
    }
   .dark-mode
    {
-    background-color:#ffd64f;
+    background-color:#343a40;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -161,7 +161,7 @@ img
   .Singout
    {
     float: right;
-    background-color: #ffd64f;
+    background-color: #343a40;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -173,4 +173,10 @@ img
 .Singout:hover 
     {
     background-color: #555;
+    }
+    #formLayout{
+      margin-top: 250px;
+    }
+    #setingChoise{
+      margin-top: 250px;
     }

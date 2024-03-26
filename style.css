@@ -96,7 +96,7 @@ img
     margin-top: 0;
     width: 100%;
     height: 300px;
-    background-image: url('sale.jpg');
+    background-image: url('logo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -110,6 +110,7 @@ img
 }
 #describtion
 {
+  color: #e9e9e9;
     
     width: 320px;
     height: 50px;
@@ -122,5 +123,8 @@ img
 {
     text-align: center;
     margin: 0;
+}
+form{
+  color: #e9e9e9;
 }
 
