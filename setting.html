@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="setingStyle.css">
+    <link rel="stylesheet" href="Layout1.css">
     <title>Setting</title>
     
 </head>
+<header class="bg-dark py-3 rounded-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-white text-center">Settings</h1>
+            </div>
+        </div>
+    </div>
+</header>
 <body>
     <div id="container">
         <div id="topbar">
@@ -43,27 +53,25 @@
         </div>
         <div id="center">
             <div id="backgraoundimge">
-                <p style="background-image: url('sale.jpg');">
-                    <div id="Seting">
-                        <h1>Seting</h1>
-                    </div>
+                <p style="background-image: url('logo.jpg');">
                 </p>
             </div>
         </div>
         <div id="setingChoise">
-            <form action="">
-                <label for="language">language:</label>
-                <select name="language" id="language">
+            <form id="formLayout" action="">
+                <label for="language" style="color: aliceblue;">language:</label>
+                <select name="language" id="language" >
                   <option value="Arabic">Arabic</option>
                   <option value="English">English</option>
                   <option value="Spain">Spain</option>
                 </select>
-              </form>
-              <label for="Notification">Notification:</label>
-              <input type="checkbox" value="Notification" class="Notification">
-              <br>
-              <label for="dark">Dark Mode:</label>
-              <input type="reset" value="dark mode" class="dark-mode">
+                <br><br>
+                <label for="Notification" style="color: aliceblue;" >Notification:</label>
+                <input type="checkbox" value="Notification" class="Notification">
+                <br><br>
+                <label for="dark" style="color: aliceblue;">Dark Mode:</label>
+                <input type="reset" value="dark mode" class="dark-mode">
+            </form>
         </div>
         <hr>
         <input type="button" value="Singout" class="Singout">
