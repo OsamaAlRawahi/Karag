@@ -35,6 +35,15 @@
                         <a class="nav-link" href="setting.html">Settings</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="calclate.html">Calclate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="funPage.html">Fun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Questionnaire.html">Survey</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="LogIn.html">Log In</a>
                     </li>
                     <li class="nav-item">
@@ -88,27 +97,27 @@
                 <!-- Contact Card -->
                 <div class="col">
                     <div class="card bg-primary card-custom">
-                        <img src="Plane.jpg" class= "card-image-top rounded shadow "alt="plane">
+                        <img id="image1" src="Plane.jpg" class= "card-image-top rounded shadow "alt="plane">
                         <div class="card-body">
-                            <h5 class="card-title card-title-custom text-white">Private Plane</h5>
+                            <h5 id="image1title" class="card-title card-title-custom text-white">Private Plane</h5>
                         </div>
                     </div>
                 </div>
                 <!-- Second Contact Card -->
                 <div class="col">
                     <div class="card bg-primary card-custom">
-                        <img src="trans2.jpg" class= "card-image-top rounded shadow "alt="yacht">
+                        <img id="image2" src="trans2.jpg" class= "card-image-top rounded shadow "alt="yacht">
                         <div class="card-body">
-                            <h5 class="card-title card-title-custom text-white">Amazing Yacht</h5>
+                            <h5 id="image2title" class="card-title card-title-custom text-white">Amazing Yacht</h5>
                         </div>
                     </div>
                 </div>
                 <!-- Third Contact Card -->
                 <div class="col">
                     <div class="card bg-primary card-custom">
-                        <img src="Tool.jpg" class= "card-image-top rounded shadow "alt="tools">
+                        <img id="image3" src="Tool.jpg" class= "card-image-top rounded shadow "alt="tools">
                         <div class="card-body">
-                            <h5 class="card-title card-title-custom text-white">Various Tools</h5>
+                            <h5 id="image3title" class="card-title card-title-custom text-white">Various Tools</h5>
                         </div>
                     </div>
                 </div>
@@ -119,8 +128,11 @@
         <div class="container">
             <a class="btn btn-outline-dark container py-3 rounded shadow" href="AddItem.html">Add your Product</a>
         </div>
+        
+        <div class="container">
+            <marquee id="dateUpdate" class="btn-outline-light container py-3 rounded shadow">Welcome to the company_name website! Today is current_date, and the time is current_time</marquee>
+        </div>
         <br>
-        <br>
-            
+        <script type="text/javascript" src="update.js"></script>
     </body>
 </html>
